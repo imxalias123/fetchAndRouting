@@ -43,7 +43,7 @@ class BlogItemDetails extends Component {
       <div>
         {isLoading ? (
           <div data-testid="loader">
-            <Loader type="TailSpin" color="00BFFF" height={50} width={50} />
+            <Loader type="TailSpin" color="#00BFFF" height={50} width={50} />
           </div>
         ) : (
           <div className="blogData-container">
